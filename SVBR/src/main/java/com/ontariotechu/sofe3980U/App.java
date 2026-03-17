@@ -39,5 +39,21 @@ public class App
 		} 
 
 	}
-	
+
+	public static double bce(float[][] model) {
+    	double epsilon = 1e-10;
+    	double bce = 0.0;
+
+    	for (int i = 0; i < model.length; i++) {
+        	double yTrue = model[i][0];
+        	double yPred = model[i][1];
+
+        	// Keep prediction away from 0 and 1 so log() is valid
+        	yPred = Math.max(epsilon, Math.min(1.0 - epsilon, yPred));
+
+        	bce += yTrue * Math.log(yPred) + (1 - yTrue) * Math.log(1 - yPred);
+    	}
+
+    	return -bce / model.length;
+	}
 }
