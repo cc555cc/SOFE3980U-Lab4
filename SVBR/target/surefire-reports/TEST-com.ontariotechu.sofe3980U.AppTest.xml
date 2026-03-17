@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ontariotechu.sofe3980U.AppTest" time="0.013" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ontariotechu.sofe3980U.AppTest" time="0.012" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/carson/Desktop/work/SOFE3980U-Lab4/SVBR/target/surefire/surefirebooter3785918577432935865.jar /home/carson/Desktop/work/SOFE3980U-Lab4/SVBR/target/surefire 2026-03-17T18-08-03_102-jvmRun1 surefire6154195022102806469tmp surefire_013499441386230142922tmp"/>
+    <property name="sun.java.command" value="/home/carson/Desktop/work/SOFE3980U-Lab4/SVBR/target/surefire/surefirebooter4792346018059603761.jar /home/carson/Desktop/work/SOFE3980U-Lab4/SVBR/target/surefire 2026-03-17T19-22-44_577-jvmRun1 surefire16583910509991802393tmp surefire_012506707086930273559tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/carson/Desktop/work/SOFE3980U-Lab4/SVBR/target/test-classes:/home/carson/Desktop/work/SOFE3980U-Lab4/SVBR/target/classes:/home/carson/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/carson/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/carson/.m2/repository/com/opencsv/opencsv/4.1/opencsv-4.1.jar:/home/carson/.m2/repository/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.jar:/home/carson/.m2/repository/org/apache/commons/commons-text/1.1/commons-text-1.1.jar:/home/carson/.m2/repository/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar:/home/carson/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/carson/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/carson/Desktop/work/SOFE3980U-Lab4/SVBR/target/surefire/surefirebooter3785918577432935865.jar"/>
+    <property name="surefire.real.class.path" value="/home/carson/Desktop/work/SOFE3980U-Lab4/SVBR/target/surefire/surefirebooter4792346018059603761.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.10+7-Ubuntu-124.04"/>
     <property name="user.name" value="carson"/>
@@ -53,5 +53,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.ontariotechu.sofe3980U.AppTest" time="0.001"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.ontariotechu.sofe3980U.AppTest" time="0.002"/>
 </testsuite>
